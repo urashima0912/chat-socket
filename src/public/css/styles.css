@@ -1,0 +1,25 @@
+body {
+  background-color: #74b9ff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1px;
+}
+
+#messages {
+  max-height: 200px;
+  height: 200px;
+  overflow-y: scroll;
+  background-color: #f7f1e3;
+}
+
+.green {
+  color: forestgreen;
+}
